@@ -1,0 +1,172 @@
+body {
+  line-height: 2;
+  font-family: "Ubuntu", sans-serif;
+  /* font-family: 'Anton', sans-serif;*/
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  margin: 8px 0 8px;
+}
+p {
+  color: #6f6f6f;
+}
+
+#title {
+  background-color: #ff4460;
+}
+.navbar-brand {
+  font-size: 3.2rem;
+}
+.nav-link {
+  font-size: 1.2rem;
+  padding: 1% 3%;
+}
+.greet-text {
+  padding: 3.2rem 1rem;
+  font-size: 3rem;
+  color: white;
+  font-weight: bolder;
+}
+.container-fluid {
+  padding: 1% 12% 8%;
+}
+
+.download-button {
+  margin: 4% 3% 4% 0%;
+}
+
+.title-image {
+  transform: rotate(27deg);
+  position: absolute;
+  width: 23%;
+  right: 20%;
+  /* top: 25%; */
+  /* margin: 25px 0px 0px 50px; */
+}
+
+#features {
+  padding: 8% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+}
+.feature-box {
+  text-align: center;
+}
+.feature-box h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+.feature-icon {
+  color: #ff5b73;
+}
+.feature-box i:hover {
+  color: #ff0a2f;
+}
+
+#testimonials {
+  color: white;
+  text-align: center;
+  background-color: #ff516be8;
+}
+.testimonial-image {
+  width: 18%;
+  margin: 1rem 1.5rem 5rem;
+  border-radius: 100%;
+}
+.carousel-item {
+  padding: 8% 15% 5%;
+}
+.carousel-item h2 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+}
+#press {
+  background-color: #ff516be8;
+  text-align: center;
+  padding-bottom: 2%;
+}
+.press-logo {
+  width: 15%;
+  margin: 1rem 1rem 2rem;
+}
+
+#pricing {
+  background-color: #ffcad2e8;
+  /* padding: 100px; */
+  padding: 5% 10% 3%;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/*  */
+
+#download {
+  background-color: #ff516be8;
+  text-align: center;
+}
+.finisher {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#footer {
+  background-color: #ff4460;
+  text-align: center;
+  padding: 10%;
+}
+#footer p {
+  color: white;
+}
+#footer p a {
+  text-decoration: none;
+  font-size: 2em;
+  color: white;
+}
+
+.social-icons i {
+  margin: 1%;
+}
+
+/* contact section */
+#contact {
+  padding: 5%;
+  background-color: #ffd0d7;
+}
+#contact-box {
+  width: 80%;
+  margin: 2% auto;
+}
+#contact h1 {
+  text-align: center;
+}
+
+/* media queries */
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 45%;
+  }
+  #navbarTogglerOne {
+    text-align: right;
+  }
+  .testimonial-image {
+    width: 21%;
+  }
+}
